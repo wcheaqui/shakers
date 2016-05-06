@@ -2,6 +2,7 @@
     img {
         display: block;
         margin: 0 auto;
+        margin-top: 40px
     }
     h1 {
         text-align: center;
@@ -9,10 +10,21 @@
     h3 {
         text-align: center;
     }
-}
-@media screen and (min-width: 701px) and (max-width: 991px) {
-    #header {
-
+    h4 {
+        margin-bottom: 25px;
     }
-
+    #cart {
+        margin-bottom: 25px;
+    }
+    .desktop {
+        display: none;
+    }
+}
+@media screen and (min-width: 701px) {
+    .mobile {
+        display: none;
+    }
+    #cart {
+        margin-top: 120px;
+    }
 }

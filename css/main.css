@@ -62,6 +62,26 @@ h2 {
     background-color: blue;
 }
 
+img {
+    margin-top: 20px;
+    margin-bottom: 10px
+}
+
+#price {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#money {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#text-description {
+    text-overflow: scroll;
+    word-wrap: break-word;
+}
+
 h3 {
     color: white;
     text-align: center;
