@@ -1,0 +1,26 @@
+#container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div {
+    text-align: center;
+}
+img {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#price {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#text-description {
+    text-overflow: scroll;
+    word-wrap: break-word;
+}
+
+#cart {
+    margin-top: 25px;
+}
