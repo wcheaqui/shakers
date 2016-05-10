@@ -1,3 +1,7 @@
+/****************************************************
+Whole Website
+*****************************************************/
+
 #container {
     display: flex;
     flex-wrap: wrap;
@@ -44,6 +48,10 @@
     width: 100%;
 }
 
+/****************************************************
+Header
+*****************************************************/
+
 #header {
     background-color: blue;
 }
@@ -58,13 +66,17 @@ h2 {
     text-align: center;
 }
 
-#banner {
-    background-color: blue;
-}
+/****************************************************
+Body
+*****************************************************/
 
 img {
     margin-top: 20px;
     margin-bottom: 10px;
+}
+
+figcaption {
+    font-style: italic;
 }
 
 #price {
@@ -75,11 +87,19 @@ img {
 #money {
     margin-top: 20px;
     margin-bottom: 20px;
+    color: red;
 }
 
 #text-description {
     text-overflow: scroll;
     word-wrap: break-word;
+}
+
+/****************************************************
+Footer
+*****************************************************/
+#banner {
+    background-color: blue;
 }
 
 h3 {
@@ -88,13 +108,15 @@ h3 {
 }
 
 #twitter {
-    width: 18%;
+    width: 100px;
     height: auto;
     margin-bottom: 30px;
+    float: right;
 }
 
 #fb {
-    width: 10%;
+    width: 54px;
     height: auto;
     margin-bottom: 30px;
+    float: left;
 }
